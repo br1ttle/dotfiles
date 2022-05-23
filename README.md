@@ -1,4 +1,4 @@
-# Welcome to the DOTFILES.
+# Welcome to the DOTFILES!
 
 Here lie the configuration files for some of my most extensively used programs. I hope you find some gems.
 
