@@ -1,37 +1,75 @@
 # Welcome to the DOTFILES!
 
-Here lie the configuration files for some of my most extensively used programs. I hope you find some gems.
+Here lie the configuration files for some of my most extensively used programs. I hope you find some gems :D.
 
 ## nvim
 An extensible text editor which I use to manipulate all text.
 
+![nvim](img/nvim.png)
+
+
 ## tmux
 My terminal multiplexer, without which I am lost.
 
+![tmux](img/tmux.png)
+
+
+## kitty
+My terminal emulator. Fast, configurable, has image preview functionality and also provides some tiling management.
+
+![kitty](img/kitty.png)
+
+
 ## yabai
-My window manager on OSX, hacky and extensible; especially with skhdrc.
+My window manager on OSX. Hacky but extensible; especially with skhdrc.
+
+![yabai](img/yabai.png)
+
 
 ## skhd
-Allows integration of powerful keybindings with yabai^.
+Allows the integration of powerful keybindings with yabai.
+
+![skhd](img/skhd.png)
+
 
 ## lf
-An extensible file manager written in GO. Very fast and configurable.
+An extensible file manager written in Go. Fast and configurable.
+
+![lf](img/lf.png)
+
 
 ## mopidy
 Runs the backend for my music. Co-ordinates between Spotify, Tidal, my personal library and even my CD-ROM.
 
-## ncmpcpp
-The TUI client to interface with above music. Very lightweight and configurable.
+![mopidy](img/mopidy.png)
 
-## sclirc
-TUI for the signal messaging app. Written in Python and comes with an overhead. Saving grace is the VIM bindings.
+
+## ncmpcpp
+The Terminal User Interface (TUI) client to interface with my music. Lightweight and configurable.
+
+![ncmpcpp](img/ncmpcpp.png)
+
+
+## scli
+TUI for the signal messaging app. Written in Python and there is an associated overhead. Saving grace are the VIM bindings.
+
+![sclirc](img/sclirc.png)
+
 
 ## zathura
-PDF viewer with sensible VIM bindings.
+PDF viewer with VIM bindings.
+
+![zathura](img/zathura.png)
+
 
 ## torrentdl
-Allows the indexing of magnet links from popular torrenting databases.
+Allows the indexing of magnet links from popular torrenting databases. Configured with rtorrent to receive the magnets upon selection.
+
+![torrentdl](img/torrentdl.png)
+
 
 ## neofetch
-Typical system information with a couple settings tweaked.
+The cliche system information with a couple settings tweaked.
+
+![neofetch](img/neofetch.png)
 
