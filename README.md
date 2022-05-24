@@ -17,6 +17,8 @@ My terminal multiplexer, without which I am lost.
 ## kitty
 My terminal emulator. Fast, configurable, has image preview functionality and also provides some tiling management.
 
+Here, I am leveraging kitty's window split to keep a tmux session on the top half of my vertical monitor with the lf file manager on the bottom half. I do this because I cannot run lf with image previews in tmux.
+
 ![kitty](img/kitty.png)
 
 
@@ -28,8 +30,6 @@ My window manager on OSX. Hacky but extensible; especially with skhdrc.
 
 ## skhd
 Allows the integration of powerful keybindings with yabai.
-
-![skhd](img/skhd.png)
 
 
 ## lf
@@ -53,7 +53,7 @@ The Terminal User Interface (TUI) client to interface with my music. Lightweight
 ## scli
 TUI for the signal messaging app. Written in Python and there is an associated overhead. Saving grace are the VIM bindings.
 
-![sclirc](img/sclirc.png)
+![scli](img/scli.png)
 
 
 ## zathura
@@ -65,7 +65,7 @@ PDF viewer with VIM bindings.
 ## torrentdl
 Allows the indexing of magnet links from popular torrenting databases. Configured with rtorrent to receive the magnets upon selection.
 
-![torrentdl](img/torrentdl.png)
+![torrentdl](img/tordl.png)
 
 
 ## neofetch
