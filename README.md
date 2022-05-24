@@ -17,7 +17,7 @@ My terminal multiplexer, without which I am lost.
 ## kitty
 My terminal emulator. Fast, configurable, has image preview functionality and also provides some tiling management.
 
-Here, I am leveraging kitty's window split to keep a tmux session on the top half of my vertical monitor with the lf file manager on the bottom half. I do this because I cannot run lf with image previews in tmux.
+Here I am leveraging kitty's window split to keep a tmux session on the top half of the screen with the lf file manager on the bottom half. I do this because I cannot run lf with image previews in tmux.
 
 ![kitty](img/kitty.png)
 
