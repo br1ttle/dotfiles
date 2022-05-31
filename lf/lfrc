@@ -88,5 +88,6 @@ map gns cd "~/Google Drive/1. - goodnotes/11. - tuition/111. - students"
 map gnx cd "/Users/aayushbajaj/Google Drive/1. - goodnotes/12. - pkm/121. - textbooks"
 
 
+
 # Path
 map cp yank-path 
