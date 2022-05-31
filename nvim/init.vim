@@ -25,6 +25,8 @@ set rnu
 "split new window to right
 set splitright
 
+set nowrap
+
 "set nofoldenable
 
 " vimwiki lets
