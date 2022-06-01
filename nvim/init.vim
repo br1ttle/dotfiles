@@ -493,6 +493,7 @@ nnoremap <leader>zb :lua require('telekasten').show_backlinks()<CR>
 nnoremap <leader>zg :lua require('telekasten').search_notes()<CR>
 nnoremap <leader>zz :lua require('telekasten').follow_link()<CR>
 nnoremap <leader>zn :lua require('telekasten').new_note()<CR>
+nnoremap <leader>zi :lua require('telekasten').insert_link()<CR>
 
 " on hesitation, bring up the panel
 nnoremap <leader>Z :lua require('telekasten').panel()<CR>
