@@ -12,11 +12,12 @@ map } scroll half-down
 map d toggle_page_mode
 map r reload
 map R rotate
-map K zoom in
-map J zoom out
+map . zoom in
+map , zoom out
 map i recolor
 map p print
 map g goto top
+map t scroll right
 
 # fullscreen maps
 map [fullscreen] { scroll half-up
@@ -24,8 +25,8 @@ map [fullscreen] } scroll half-down
 map [fullscreen] d toggle_page_mode
 map [fullscreen] r reload
 map [fullscreen] R rotate
-map [fullscreen] K zoom in
-map [fullscreen] J zoom out
+map [fullscreen] . zoom in
+map [fullscreen] , zoom out
 map [fullscreen] i recolor
 map [fullscreen] p print
 map [fullscreen] g goto top
