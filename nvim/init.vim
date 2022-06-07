@@ -507,3 +507,4 @@ nnoremap <leader>zi :lua require('telekasten').insert_link()<CR>
 " on hesitation, bring up the panel
 nnoremap <leader>Z :lua require('telekasten').panel()<CR>
 
+let g:transparent_enabled = v:true
