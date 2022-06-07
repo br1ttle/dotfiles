@@ -131,8 +131,15 @@ nnoremap <leader>X :bd<CR>
 nnoremap <leader>u :vsp<CR>:Explore<CR>
 " open empty file in new buffer
 nnoremap <leader>e :enew<CR>
-" open config
-nnoremap <leader>r :RC<CR>
+" open configs
+nnoremap <leader>cv :RC<CR>
+nnoremap <leader>cz :e ~/.config/zsh/.zshrc<CR>
+
+" TODO
+" open crontab
+" will need to write the cronedit function 
+" nmap <silent> <leader>ct :call cronedit()<CR>
+"
 
 " vimwiki remaps
 " toggle todos
@@ -276,7 +283,8 @@ command RC e $MYVIMRC
 "augroup end
 "autocmd BufRead * if expand('%') =~ "index" | set syntax=vimwiki | endif
 
-autocmd BufEnter diary.md VimwikiDiaryGenerateLinks
+autocmd BufEnter diary.md VimwikiDiaryGenerateLinks " there is definitely a way
+autocmd BufEnter diary.md set syntax=vimwiki " to concatenate these 2 lines
 autocmd BufEnter index.md set syntax=vimwiki
 
 let g:vimtex_view_general_viewer = 'zathura'
