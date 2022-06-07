@@ -17,6 +17,8 @@ set hidden true
 cmd zip %zip -r "$f" "$f"
 cmd tar %tar cvf "$f.tar" "$f"
 
+cmd wall /usr/local/bin/wallpaper set "$f"
+
 cmd mkdir ${{
 	printf "Directory name: "
 	read ans
@@ -72,6 +74,7 @@ map R reload
 map C clear
 map { half-up
 map } half-down
+map w wall
 
 # Custom Directories
 map gdd cd "~/Google Drive"
