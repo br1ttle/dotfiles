@@ -17,7 +17,9 @@ set hidden true
 cmd zip %zip -r "$f" "$f"
 cmd tar %tar cvf "$f.tar" "$f"
 
-cmd wall /usr/local/bin/wallpaper set "$f"
+cmd wall ${{
+	wallpaper set "$f"
+}}
 
 cmd mkdir ${{
 	printf "Directory name: "
