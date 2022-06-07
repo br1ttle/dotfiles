@@ -43,11 +43,11 @@ limelight --config /Users/aayushbajaj/.config/yabai/limelight/limelightrc &>/dev
 # adjusting window borders
 
 yabai -m config layout bsp
-yabai -m config top_padding 20
-yabai -m config bottom_padding 20
-yabai -m config left_padding 20
-yabai -m config right_padding 20
-yabai -m config window_gap 25
+yabai -m config top_padding 15
+yabai -m config bottom_padding 15
+yabai -m config left_padding 15
+yabai -m config right_padding 15
+yabai -m config window_gap 15
 
 # global settings
 yabai -m config mouse_follows_focus          off
@@ -65,5 +65,7 @@ yabai -m config mouse_modifier               fn
 yabai -m config mouse_action1                move
 yabai -m config mouse_action2                resize
 yabai -m config mouse_drop_action            swap
+
+
 
 echo "yabai configuration loaded.."
