@@ -43,8 +43,8 @@ export gdc="$HOME/Google Drive/2. - code"
 export gdm="$HOME/Google Drive/7. - media"
 export gcv="$gdc/212. - vimwiki"
 export gnt="$gd/1. - goodnotes/11. - tuition"
-export gcn="/Users/aayushbajaj/Google Drive/2. - code/211. - unsw"
-export gcu="/Users/aayushbajaj/Google Drive/2. - code/211. - unsw/211.1 - courses"
+export gcn="$gd/2. - code/211. - unsw"
+export gcu="$gd/2. - code/211. - unsw/211.1 - courses"
 
 ## path
 ### Created by `pipx` on 2021-10-23 02:37:28
@@ -119,7 +119,7 @@ alias npi="ncmpcpp -c ~/.config/ncmpcpp/config_rpi -b ~/.config/ncmpcpp/bindings
 alias nab="ncmpcpp -c ~/.config/ncmpcpp/config_abel -b ~/.config/ncmpcpp/bindings"
 
 # configs
-alias trc="v ~/.tmux.config"
+alias trc="v ~/.config/tmux/tmux.conf"
 alias vrc="v ~/.config/nvim/init.vim"
 alias zrc="v ~/.config/zsh/.zshrc"
 alias lrc="v ~/.config/lf/lfrc"
