@@ -241,7 +241,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'renerocksai/telekasten.nvim'
 Plug 'michal-h21/vim-zettel'
-Plug 'tribela/vim-transparent'
+Plug 'xiyaowong/nvim-transparent'
 call plug#end()
 
 
