@@ -24,7 +24,10 @@ ctrl - b : yabai -m query --displays --display | jq -r '.index' | xargs -I {} ba
 
 
 # move window to other display
-ctrl + cmd - b : windowID="$(yabai -m query --windows --window | jq -re ".id")" && yabai -m query --spaces --space | jq -re ".index" | xargs -I {} bash -c "if [[ '{}' = '5' ]]; then yabai -m window --space 2; elif [[ '{}' = '2' ]]; then yabai -m window --space 5; fi" && yabai -m window --focus "$windowID"
+ctrl + cmd - b : windowID="$(yabai -m query --windows --window | jq -re ".id")" && yabai -m query --spaces --space | jq -re ".index" | xargs -I {} bash -c "if [[ '{}' = '1' ]]; then yabai -m window --space 3; elif [[ '{}' = '3' ]]; then yabai -m window --space 2; fi" && yabai -m window --focus "$windowID"
+
+ctrl + cmd - x : windowID="$(yabai -m query --windows --window | jq -re ".id")" && yabai -m query --spaces --space | jq -re ".index" | xargs -I {} bash -c "if [[ '{}' = '1' ]]; then yabai -m window --space 2; elif [[ '{}' = '3' ]]; then yabai -m window --space 1; fi" && yabai -m window --focus "$windowID"
+
 
 # blacklist
 .load "partial_skhdrc"
@@ -187,7 +190,4 @@ ctrl + alt + cmd + lshift - return : yabai -m window --focus stack.next || yabai
 #ctrl + alt - 3  : yabai -m display --focus 3
 
 
-f7 : mpc prev
-f8 : mpc toggle
-f9 : mpc next
 
