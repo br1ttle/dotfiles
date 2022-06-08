@@ -5,13 +5,9 @@ sudo yabai --load-sa
 yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 
 # labelling spaces
-yabai -m space 1 --label disc
-yabai -m space 2 --label mail
+yabai -m space 1 --label gb32
+yabai -m space 2 --label gb27
 yabai -m space 3 --label abel
-yabai -m space 4 --label spotify
-yabai -m space 5 --label vscode
-yabai -m space 6 --label gigabyte
-yabai -m space 6 --label roam
 
 # disable tiling for specific apps
 
