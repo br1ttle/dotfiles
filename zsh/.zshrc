@@ -127,6 +127,7 @@ alias krc="v ~/.config/karabiner/karabiner.json"
 alias mrc="v ~/.config/mutt/"
 
 alias a="tmux a"
+alias srs="drill-srs"
 
 # custom functions
 dtail () {
