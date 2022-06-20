@@ -16,7 +16,9 @@ set hidden true
 
 cmd zip %zip -r "$f" "$f"
 cmd tar %tar cvf "$f.tar" "$f"
-cmd unzip "$f"
+cmd unzip ${{
+	unzip "$f"
+}}
 
 cmd wall ${{
 	wallpaper set "$f"
