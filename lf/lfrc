@@ -14,7 +14,9 @@ set hidden true
 #set shellopts '-eu'
 #set ifs "\n"
 
-cmd zip %zip -r "$f" "$f"
+cmd zip ${{
+	zip -r "$f".zip "$f"
+}}
 cmd tar %tar cvf "$f.tar" "$f"
 cmd unzip ${{
 	unzip "$f"
@@ -98,6 +100,7 @@ map gmw cd "~/Google Drive/7. - media/705. - walls"
 map gaw cd "~/Downloads"
 map gac cd "~/Documents"
 map g.c cd "~/.config"
+map g.l cd "~/.local"
 map gre cd "/etc"
 map gru cd "/usr"
 map grv cd "/var"

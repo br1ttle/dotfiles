@@ -101,10 +101,8 @@ alias cse="ssh -Y z5362216@weill.cse.unsw.edu.au"
 alias rpi="ssh -X alarm@192.168.1.125"
 # displayplacer awk command to reso
 alias "reso=displayplacer list | awk 'END{print}'"
-# config for dotfiles
-alias cfg='/usr/bin/git --git-dir=/Users/aayushbajaj/.cfg/ --work-tree=/Users/aayushbajaj'
+#alias pty="cd '$HOME/Google Drive/2. - code/212. - vimwiki/2022' && find . -type f -name 'week*.md' | sort | sed 's/.\{3\}$//' | xargs -I {} pandoc {}.md -o {}.pdf && pdfunite week*.pdf year.pdf && rm week*.pdf && cd -"
 
-alias pty="cd '$HOME/Google Drive/2. - code/212. - vimwiki/2022' && find . -type f -name 'week*.md' | sort | sed 's/.\{3\}$//' | xargs -I {} pandoc {}.md -o {}.pdf && pdfunite week*.pdf year.pdf && rm week*.pdf && cd -"
 
 alias ZZ=exit
 alias v=/usr/local/bin/nvim
@@ -114,6 +112,8 @@ alias vd="/usr/local/bin/nvim '$gcv/212.00 - cs/diary/diary.md'"
 alias vvd="/usr/local/bin/nvim '$gcv/212.01 - pkm/diary/diary.md'"
 
 alias tordl="'/Users/aayushbajaj/Google Drive/8. - software/800. - git/cli-torrent-dl/tordl.sh'"
+alias aloc="locate -d $HOME/.local/var/db/locate.user.database"
+alias sloc="locate -d /var/db/locate.database"
 
 # music
 alias npi="ncmpcpp -c ~/.config/ncmpcpp/config_rpi -b ~/.config/ncmpcpp/bindings"
@@ -138,16 +138,11 @@ tt () {
 	termdown $((60*$1))
 }
 
-
-
 source $ZSH/oh-my-zsh.sh
-
-
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 
-
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
 

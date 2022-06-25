@@ -173,6 +173,8 @@ vmap <space>c :CalendarVR<CR>
 nmap <space>g <Plug>VimwikiDiaryGenerateLinks
 vmap <space>g :<Plug>VimwikiDiaryGenerateLinks
 
+nmap <space>s :setlocal spell! spelllang=en_au<CR>
+vmap <space>s :setlocal spell! spelllang=en_au<CR>
 
 " clipboard
 nnoremap Y "*y
@@ -272,6 +274,8 @@ augroup folds
 	autocmd FileType vimwiki set foldmethod=expr
 	autocmd FileType vimwiki set syntax=markdown
 	autocmd FileType vimwiki set nofoldenable
+	autocmd FileType vimwiki set linebreak
+	autocmd FileType vimwiki set wrap
 augroup END
 
 
@@ -508,3 +512,10 @@ nnoremap <leader>zi :lua require('telekasten').insert_link()<CR>
 nnoremap <leader>Z :lua require('telekasten').panel()<CR>
 
 let g:transparent_enabled = v:true
+
+let g:OxfDictionary#app_id='d9ac7995'
+let g:OxfDictionary#app_key='c3e81fe9c9bd494a3efb4ef2a6a1ae76'
+
+nmap <space>d :Dictionary<CR>
+
+
