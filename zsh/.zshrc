@@ -38,14 +38,9 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
 
 
 ## navigation
-export gdd="$HOME/Google Drive"
-export gdc="$HOME/Google Drive/2. - code"
-export gdm="$HOME/Google Drive/7. - media"
-export gcv="$gdc/212. - vimwiki"
-export gnt="$gd/1. - goodnotes/11. - tuition"
-export gcn="$gd/2. - code/211. - unsw"
-export gcu="$gd/2. - code/211. - unsw/211.1 - courses"
-export gaw="$HOME/Downloads"
+### exports are now in .zprofile
+
+
 
 ## path
 ### Created by `pipx` on 2021-10-23 02:37:28
