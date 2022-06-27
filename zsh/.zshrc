@@ -126,12 +126,25 @@ alias a="tmux a"
 alias srs="drill-srs"
 
 # custom functions
+
+## delete the last x lines of file 
 dtail () {
 	tail -n $1 "$2" | wc -c | xargs -I {} truncate "$2" -s -{}
 }
+
+## start a countdown in minutes using the termdown utility
 tt () {
 	termdown $((60*$1))
 }
+
+## mc make and change into a directory
+mc () {
+	md "$@"
+	cd "$@"
+}
+
+
+
 
 source $ZSH/oh-my-zsh.sh
 
