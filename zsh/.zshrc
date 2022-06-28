@@ -124,6 +124,7 @@ alias mrc="v ~/.config/mutt/"
 
 alias a="tmux a"
 alias srs="drill-srs"
+alias zhist="v ~/.config/zsh/.zsh_history"
 
 # custom functions
 
