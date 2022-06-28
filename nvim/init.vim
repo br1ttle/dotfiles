@@ -244,6 +244,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'renerocksai/telekasten.nvim'
 Plug 'michal-h21/vim-zettel'
 Plug 'xiyaowong/nvim-transparent'
+Plug 'theniceboy/vim-calc'
 call plug#end()
 
 
