@@ -517,6 +517,6 @@ let g:transparent_enabled = v:true
 let g:OxfDictionary#app_id='d9ac7995'
 let g:OxfDictionary#app_key='c3e81fe9c9bd494a3efb4ef2a6a1ae76'
 
-nmap <space>d :Dictionary<CR>
 
+nnoremap <space>l :call Calc()<CR>
 
