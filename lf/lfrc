@@ -54,7 +54,6 @@ cmd yank-path $printf '%s' "$fx" | pbcopy
 #cmd yank-basename $basename -a -- $fx | head -c-1 | pbcopy
 
 
-map d
 map m
 map o
 map n
@@ -74,7 +73,7 @@ map az zip
 map at tar
 
 # Trash Mappings
-map dd trash
+map DD trash
 map tc clear_trash
 map tr restore_trash
 
@@ -83,7 +82,7 @@ map N :set sortby natural; set info; set reverse!
 map R :set sortby time; set info time; set reverse!
 map t open
 map . set hidden!
-map DD delete
+map DDD delete
 map p paste
 map x cut
 map y copy
