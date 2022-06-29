@@ -65,6 +65,8 @@ map tc clear_trash
 map tr restore_trash
 
 
+map N sn zr
+map R st zr
 map t open
 map . set hidden!
 map DD delete
