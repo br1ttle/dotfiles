@@ -1,13 +1,10 @@
-#set previewer '~/.config/lf/preview'
-#set cleaner '~/.config/lf/cleaner'
 set previewer stpv
-# put stpv in above line instead of iterm2
 set cleaner stpvimgclr
 &stpvimg --listen $id
 cmd on-quit $stpvimg --end $id
+
 set preview true
 set hidden true
-# set drawbox true
 
 # from default rc
 #set shell sh
@@ -15,6 +12,7 @@ set hidden true
 #set ifs "\n"
 
 set icons
+set dircounts
 
 cmd zip ${{
 	zip -r "$f".zip "$f"
@@ -51,7 +49,6 @@ cmd yank-path $printf '%s' "$fx" | pbcopy
 # / awk to get this to work. nffs.
 #cmd yank-dirname $dirname -- "$f" | head -c-1 | pbcopy
 #cmd yank-basename $basename -a -- $fx | head -c-1 | pbcopy
-
 
 
 map d
@@ -125,7 +122,6 @@ map gru cd "/usr"
 map grv cd "/var"
 map grb cd "/bin"
 map grr cd "/"
-
 
 
 # Path
