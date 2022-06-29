@@ -65,8 +65,8 @@ map tc clear_trash
 map tr restore_trash
 
 
-map N :set sortby natural; set reverse!
-map R :set sortby time; set reverse!
+map N :set sortby natural; set info; set reverse!
+map R :set sortby time; set info time; set reverse!
 map t open
 map . set hidden!
 map DD delete
