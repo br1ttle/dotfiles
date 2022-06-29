@@ -52,6 +52,7 @@ cmd yank-path $printf '%s' "$fx" | pbcopy
 
 
 
+map d
 map m
 map o
 map n
