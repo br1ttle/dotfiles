@@ -12,7 +12,7 @@ set hidden true
 #set ifs "\n"
 
 set icons
-set dircounts
+#set dircounts
 
 cmd zip ${{
 	zip -r "$f".zip "$f"
