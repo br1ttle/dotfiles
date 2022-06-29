@@ -32,6 +32,17 @@ cmd mkdir ${{
 	mkdir "$ans"
 }}
 
+
+cmd trash ${{
+   mkdir -p ~/.trash
+   if [ -z "$fs" ]; then
+	   mv "$f" ~/.trash
+   else
+	   IFS="`printf '\n\t'`"; mv $fs ~/.trash
+   fi
+}}
+
+
 cmd yank-path $printf '%s' "$fx" | pbcopy
 # the below 2 do not work as the head command on osx cannot handle negative
 # values. you will need to use some text manipulation trickery with tail / sed 
