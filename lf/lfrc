@@ -14,6 +14,8 @@ set hidden true
 #set shellopts '-eu'
 #set ifs "\n"
 
+set icons
+
 cmd zip ${{
 	zip -r "$f".zip "$f"
 }}
