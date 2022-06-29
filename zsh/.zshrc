@@ -120,6 +120,7 @@ alias vrc="v ~/.config/nvim/init.vim"
 alias zrc="v ~/.config/zsh/.zshrc"
 alias lrc="v ~/.config/lf/lfrc"
 alias krc="v ~/.config/karabiner/karabiner.json"
+alias kirc="v ~/.config/kitty/kitty.conf"
 alias mrc="v ~/.config/mutt/"
 
 alias a="tmux a"
