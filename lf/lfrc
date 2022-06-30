@@ -101,7 +101,7 @@ map w wall
 
 # Custom Directories
 map gh cd "~"
-map gd<space> cd "~/Google Drive"
+map gdr cd "~/Google Drive"
 map gdn cd "~/Google Drive/1. - goodnotes"
 map gnu cd "~/Google Drive/1. - goodnotes/10. - uni/100. - unsw"
 map gnt cd "~/Google Drive/1. - goodnotes/11. - tuition"
