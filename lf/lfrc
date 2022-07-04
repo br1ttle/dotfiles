@@ -14,7 +14,7 @@ set hidden true
 set icons
 #set dircounts
 map ff $lf -remote "send $id select \"$(fzf)\""
-map sg &tmux split-window -h lf
+map s- &tmux split-window -h lf
 map sv &tmux split-window -v lf
 
 cmd zip ${{
