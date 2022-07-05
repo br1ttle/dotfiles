@@ -3,7 +3,6 @@ runtime ftplugin/man.vim
 " allow persistent undos
 set undodir=~/.config/nvim/undid
 set undofile
-
 "turn on search highlighting
 set hlsearch
 
