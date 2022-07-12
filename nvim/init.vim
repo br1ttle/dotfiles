@@ -430,4 +430,5 @@ let g:OxfDictionary#app_key='c3e81fe9c9bd494a3efb4ef2a6a1ae76'
 
 nnoremap <space>l :call Calc()<CR>
 
-inoremap <C-p> :w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/beamer' '%'<CR>
+inoremap <C-c> :w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/beamer' '%'<CR>
+nnoremap <C-c> :w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/beamer' '%'<CR>
