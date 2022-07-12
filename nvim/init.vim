@@ -430,4 +430,4 @@ let g:OxfDictionary#app_key='c3e81fe9c9bd494a3efb4ef2a6a1ae76'
 
 nnoremap <space>l :call Calc()<CR>
 
-nnoremap <Leader>P :AsyncRun echo '%' | rev | cut -c4- | rev | xargs -I{} zsh -c "pandoc '%' -t beamer -o {}.pdf --verbose -H '$HOME/Google Drive/2. - code/213. - latex/deeplists.tex' && open {}.pdf"<CR>
+nnoremap <Leader>P :AsyncRun echo '%' \| rev \| cut -c4- \| rev \| xargs -I{} zsh -c "pandoc '%' -t beamer -o {}.pdf --verbose -H '$HOME/Google Drive/2. - code/213. - latex/deeplists.tex' && open {}.pdf"<CR>
