@@ -244,6 +244,7 @@ Plug 'renerocksai/telekasten.nvim'
 Plug 'michal-h21/vim-zettel'
 Plug 'xiyaowong/nvim-transparent'
 Plug 'theniceboy/vim-calc'
+Plug 'skywind3000/asyncrun.vim'
 call plug#end()
 
 
