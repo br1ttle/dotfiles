@@ -82,7 +82,7 @@ map N :set sortby natural; set info; set reverse!
 map R :set sortby time; set info time; set reverse!
 map t open
 map . set hidden!
-map DDD delete
+map DdD delete
 map p paste
 map x cut
 map y copy
