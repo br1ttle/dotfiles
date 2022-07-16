@@ -430,4 +430,8 @@ let g:OxfDictionary#app_key='c3e81fe9c9bd494a3efb4ef2a6a1ae76'
 
 nnoremap <space>l :call Calc()<CR>
 
+
 nnoremap P :w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/beamer' '%'<CR>
+
+
+let g:calendar_keys = { 'goto_today': 'T'}
