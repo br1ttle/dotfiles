@@ -7,7 +7,6 @@
 
 ## moonlander function mappings
 ctrl + cmd - 0x31 : yabai -m space --rotate 90
-shift - 0x7a : yabai -m window --focus west
 shift - F2 : yabai -m window --focus east
 shift - F3 : yabai -m window --focus north
 shift - F4 : yabai -m window --focus south
