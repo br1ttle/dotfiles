@@ -6,26 +6,26 @@
 # bajaj
 
 ## moonlander function mappings
-F1 : yabai -m window --focus west
-F2 : yabai -m window --focus east
-F3 : yabai -m window --focus north
-F4 : yabai -m window --focus south
+shift - Ox7a : yabai -m window --focus west
+shift - F2 : yabai -m window --focus east
+shift - F3 : yabai -m window --focus north
+shift - F4 : yabai -m window --focus south
 
-F5 : yabai -m window --swap west
-F6 : yabai -m window --swap east
-F7 : yabai -m window --swap north
-F8 : yabai -m window --swap south
+shift - F5 : yabai -m window --swap west
+shift - F6 : yabai -m window --swap east
+shift - F7 : yabai -m window --swap north
+shift - F8 : yabai -m window --swap south
 
-F9 : yabai -m query --displays --display | jq -r '.index' | xargs -I {} bash -c "if [[ '{}' = '3' ]]; then yabai -m display --focus 2; elif [[ '{}' = '2' ]]; then yabai -m display --focus 1; elif [[ '{}' = '1' ]]; then yabai -m display --focus 3; fi"
-F10 : yabai -m query --displays --display | jq -r '.index' | xargs -I {} bash -c "if [[ '{}' = '3' ]]; then yabai -m display --focus 1; elif [[ '{}' = '2' ]]; then yabai -m display --focus 3; elif [[ '{}' = '1' ]]; then yabai -m display --focus 2; fi"
-F11 : windowID="$(yabai -m query --windows --window | jq -re ".id")" && yabai -m query --spaces --space | jq -re ".index" | xargs -I {} bash -c "if [[ '{}' = '1' ]]; then yabai -m window --space 3; elif [[ '{}' = '2' ]]; then yabai -m window --space 1; elif [[ '{}' = '3' ]]; then yabai -m window --space 2; fi" && yabai -m window --focus "$windowID"
-F12 : windowID="$(yabai -m query --windows --window | jq -re ".id")" && yabai -m query --spaces --space | jq -re ".index" | xargs -I {} bash -c "if [[ '{}' = '1' ]]; then yabai -m window --space 2; elif [[ '{}' = '2' ]]; then yabai -m window --space 3; elif [[ '{}' = '3' ]]; then yabai -m window --space 1; fi" && yabai -m window --focus "$windowID"
+shift - F9 : yabai -m query --displays --display | jq -r '.index' | xargs -I {} bash -c "if [[ '{}' = '3' ]]; then yabai -m display --focus 2; elif [[ '{}' = '2' ]]; then yabai -m display --focus 1; elif [[ '{}' = '1' ]]; then yabai -m display --focus 3; fi"
+shift - F10 : yabai -m query --displays --display | jq -r '.index' | xargs -I {} bash -c "if [[ '{}' = '3' ]]; then yabai -m display --focus 1; elif [[ '{}' = '2' ]]; then yabai -m display --focus 3; elif [[ '{}' = '1' ]]; then yabai -m display --focus 2; fi"
+shift - F11 : windowID="$(yabai -m query --windows --window | jq -re ".id")" && yabai -m query --spaces --space | jq -re ".index" | xargs -I {} bash -c "if [[ '{}' = '1' ]]; then yabai -m window --space 3; elif [[ '{}' = '2' ]]; then yabai -m window --space 1; elif [[ '{}' = '3' ]]; then yabai -m window --space 2; fi" && yabai -m window --focus "$windowID"
+shift - F12 : windowID="$(yabai -m query --windows --window | jq -re ".id")" && yabai -m query --spaces --space | jq -re ".index" | xargs -I {} bash -c "if [[ '{}' = '1' ]]; then yabai -m window --space 2; elif [[ '{}' = '2' ]]; then yabai -m window --space 3; elif [[ '{}' = '3' ]]; then yabai -m window --space 1; fi" && yabai -m window --focus "$windowID"
 
-F13 : yabai -m space --rotate 90
-F14 : yabai -m query --windows --window | jq -re "." | xargs -I{} yabai -m window 2 --stack {}
-F15 : window=$(yabai -m query --windows --window | jq -r '.id') && yabai -m window east --stack $window || (yabai -m window $window --toggle float && yabai -m window $window --toggle float)
-F16 : yabai -m window --focus stack.next 
-F17 : yabai -m window --focus stack.prev 
+shift - F13 : yabai -m space --rotate 90
+shift - F14 : yabai -m query --windows --window | jq -re "." | xargs -I{} yabai -m window 2 --stack {}
+shift - F15 : window=$(yabai -m query --windows --window | jq -r '.id') && yabai -m window east --stack $window || (yabai -m window $window --toggle float && yabai -m window $window --toggle float)
+shift - F16 : yabai -m window --focus stack.next 
+shift - F17 : yabai -m window --focus stack.prev 
 
 #shift + alt - a : yabai -m window --resize left:-20:0
 #shift + alt - s : yabai -m window --resize bottom:0:20
