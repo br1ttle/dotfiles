@@ -4,9 +4,8 @@
 # 0x21 is the "[" key
 
 # bajaj
-
 ## moonlander function mappings
-ctrl + cmd - 0x31 : yabai -m space --rotate 90
+shift - f16 : yabai -m space --rotate 90
 shift - f1 : yabai -m window --focus west
 shift - f2 : yabai -m window --focus east
 shift - f3 : yabai -m window --focus north
@@ -22,10 +21,10 @@ shift - f10 : yabai -m query --displays --display | jq -r '.index' | xargs -I {}
 shift - f11 : windowID="$(yabai -m query --windows --window | jq -re ".id")" && yabai -m query --spaces --space | jq -re ".index" | xargs -I {} bash -c "if [[ '{}' = '1' ]]; then yabai -m window --space 3; elif [[ '{}' = '2' ]]; then yabai -m window --space 1; elif [[ '{}' = '3' ]]; then yabai -m window --space 2; fi" && yabai -m window --focus "$windowID"
 shift - f12 : windowID="$(yabai -m query --windows --window | jq -re ".id")" && yabai -m query --spaces --space | jq -re ".index" | xargs -I {} bash -c "if [[ '{}' = '1' ]]; then yabai -m window --space 2; elif [[ '{}' = '2' ]]; then yabai -m window --space 3; elif [[ '{}' = '3' ]]; then yabai -m window --space 1; fi" && yabai -m window --focus "$windowID"
 
-shift - f14 : yabai -m query --windows --window | jq -re "." | xargs -I{} yabai -m window 2 --stack {}
-shift - f15 : window=$(yabai -m query --windows --window | jq -r '.id') && yabai -m window east --stack $window || (yabai -m window $window --toggle float && yabai -m window $window --toggle float)
-shift - f16 : yabai -m window --focus stack.next 
-shift - f17 : yabai -m window --focus stack.prev 
+# shift - f14 : yabai -m query --windows --window | jq -re "." | xargs -I{} yabai -m window 2 --stack {}
+shift - f13 : window=$(yabai -m query --windows --window | jq -r '.id') && yabai -m window east --stack $window || (yabai -m window $window --toggle float && yabai -m window $window --toggle float)
+shift - f14 : yabai -m window --focus stack.prev 
+shift - f15 : yabai -m window --focus stack.next 
 
 #shift + alt - a : yabai -m window --resize left:-20:0
 #shift + alt - s : yabai -m window --resize bottom:0:20
