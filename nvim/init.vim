@@ -439,6 +439,6 @@ nnoremap P :w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scr
 let g:calendar_keys = { 'goto_today': 'T'}
 
 
-nnoremap E :silent ! '~/Google Drive/2. - code/202. - c/202.6 - bytelocker/bytelocker' '%' '$bl_pass'<CR>:set noro<CR>
+nnoremap E :silent ! '/Users/aayushbajaj/Google Drive/2. - code/202. - c/202.6 - bytelocker/bytelocker' '%' '$bl_pass'<CR>:set noro<CR>
 
 
