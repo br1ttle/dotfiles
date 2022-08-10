@@ -1,5 +1,7 @@
 runtime ftplugin/man.vim
 
+so "~/.config/zsh/.zprofile"
+
 " allow persistent undos
 set undodir=~/.config/nvim/undid
 set undofile
@@ -438,3 +440,5 @@ let g:calendar_keys = { 'goto_today': 'T'}
 
 
 nnoremap E :silent ! '/Users/aayushbajaj/Google Drive/2. - code/202. - c/202.6 - bytelocker/bytelocker' '%' '$bl_pass'<CR>:set noro<CR>
+
+
