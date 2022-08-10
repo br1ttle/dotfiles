@@ -157,3 +157,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 
 # testing dotfiles script
+
+export bl_pass="1RF9bL4G9Sh1akXe" 
