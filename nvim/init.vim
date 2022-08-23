@@ -435,6 +435,7 @@ nnoremap <space>l :call Calc()<CR>
 
 nnoremap P :w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/beamer' '%'<CR>
 
+nnoremap H :w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/handout' '%'<CR>
 
 let g:calendar_keys = { 'goto_today': 'T'}
 
