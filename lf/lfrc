@@ -87,7 +87,7 @@ map p paste
 map x cut
 map y copy
 map <enter> shell
-map mf mkfile
+map mf touch
 map mr sudomkfile
 map md mkdir
 map ms $mkscript
