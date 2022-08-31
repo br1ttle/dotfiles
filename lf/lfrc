@@ -35,6 +35,12 @@ cmd mkdir ${{
 	mkdir "$ans"
 }}
 
+cmd mkfile ${{
+	printf "File name: "
+	read ans
+	touch "$ans"
+}}
+
 
 cmd trash ${{
    mkdir -p ~/.trash
@@ -87,7 +93,7 @@ map p paste
 map x cut
 map y copy
 map <enter> shell
-map mf touch
+map mf mkfile
 map mr sudomkfile
 map md mkdir
 map ms $mkscript
