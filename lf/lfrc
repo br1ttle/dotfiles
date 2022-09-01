@@ -84,6 +84,7 @@ map tc clear_trash
 map tr restore_trash
 
 
+map T tag-toggle
 map N :set sortby natural; set info; set reverse!
 map R :set sortby time; set info time; set reverse!
 map t open
