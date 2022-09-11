@@ -50,6 +50,7 @@ export PATH="$PATH:$HOME/Google Drive/2. - code/206. - scripts"
 ### go (the language)
 export PATH="$PATH:$HOME/.go/bin"
 export PATH="$PATH:$HOME/go/bin"
+export GOPATH="/Users/aayushbajaj/go"
 
 
 export HOMEBREW_GITHUB_API_TOKEN=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
