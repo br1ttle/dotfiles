@@ -48,6 +48,7 @@ export PATH="$PATH:/Users/aayushbajaj/.local/bin:/Users/aayushbajaj/.emacs.d/bin
 ### .scripts folder
 export PATH="$PATH:$HOME/Google Drive/2. - code/206. - scripts"
 ### go (the language)
+export PATH="$PATH:$HOME/.go/bin"
 export PATH="$PATH:$HOME/go/bin"
 
 
