@@ -452,3 +452,6 @@ let g:NERDTreeHijackNetrw = 0 " Add this line if you use NERDTree
 let g:lf_replace_netrw = 1 " Open lf when vim opens a directory
 let g:lf_height = 0.9
 let g:lf_width = 0.9
+
+" lazygit
+nnoremap <leader>g :FloatermNew lazygit<CR>
