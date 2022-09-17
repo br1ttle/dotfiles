@@ -247,6 +247,8 @@ Plug 'michal-h21/vim-zettel'
 Plug 'xiyaowong/nvim-transparent'
 Plug 'theniceboy/vim-calc'
 Plug 'skywind3000/asyncrun.vim'
+Plug 'ptzz/lf.vim'
+Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 
@@ -445,3 +447,6 @@ nnoremap E :silent ! '/Users/aayushbajaj/Google Drive/2. - code/202. - c/202.6 -
 " primeagen space paste remap
 xnoremap <leader>p "_dP
 
+" lf
+let g:NERDTreeHijackNetrw = 0 " Add this line if you use NERDTree
+let g:lf_replace_netrw = 1 " Open lf when vim opens a directory
