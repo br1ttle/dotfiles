@@ -104,7 +104,7 @@ nnoremap go g<c-]>
 vnoremap go g<c-]>
 
 " remaps backspace to file explorer in normal mode
-nnoremap <backspace> :E<CR>
+nnoremap <backspace> :Lf<CR>
 
 
 " leader
