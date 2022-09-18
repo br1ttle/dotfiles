@@ -71,6 +71,7 @@ map f
 
 # File Openers
 map e $$EDITOR "$f"
+map E $$EDITOR -R "$f"
 map l $view "$f"
 map u unzip
 
