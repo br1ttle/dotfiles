@@ -249,6 +249,7 @@ Plug 'theniceboy/vim-calc'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'ptzz/lf.vim'
 Plug 'voldikss/vim-floaterm'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 
