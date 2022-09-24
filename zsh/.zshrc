@@ -47,6 +47,7 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
 export PATH="$PATH:/Users/aayushbajaj/.local/bin:/Users/aayushbajaj/.emacs.d/bin:/usr/local/go/bin/"
 ### .scripts folder
 export PATH="$PATH:$HOME/Google Drive/2. - code/206. - scripts"
+export PATH="$PATH:$HOME/Google Drive/2. - code/202. - c/202.2 - programs"
 ### go (the language)
 export PATH="$PATH:$HOME/.go/bin"
 export PATH="$PATH:$HOME/go/bin"
