@@ -51,6 +51,10 @@ cmd trash ${{
    fi
 }}
 
+cmd brave ${{
+    open -a "Brave Browser Beta.app" '$f'
+}}
+
 
 cmd yank-path $printf '%s' "$fx" | pbcopy
 # the below 2 do not work as the head command on osx cannot handle negative
@@ -99,7 +103,7 @@ map mf mkfile
 map mr sudomkfile
 map md mkdir
 map ms $mkscript
-map o open_config
+map o brave
 map r rename
 map R reload
 map C clear
