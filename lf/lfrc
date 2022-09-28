@@ -52,7 +52,7 @@ cmd trash ${{
 }}
 
 cmd brave ${{
-    open -a "Brave Browser Beta.app" '$f'
+    open -a "Brave Browser Beta.app" "$f"
 }}
 
 
