@@ -69,25 +69,6 @@ local lsp_flags = {
   debounce_text_changes = nil
 }
 
--- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local providers_path = "providers."
-local lsps_table = {
-  lua_lsp = require(providers_path .. "lua"),
-  angular_lsp = require(providers_path .. "angular"),
-  csharp_lsp = require(providers_path .. "csharp"),
-  emmet_lsp = require(providers_path .. "emmet"),
-  intelephense_lsp = require(providers_path .. "intelephense"),
-  latex_lsp = require(providers_path .. "latex"),
-  python_lsp = require(providers_path .. "pyright"),
-  rust_lsp = require(providers_path .. "rust"),
-  swift_lsp = require(providers_path .. "swift"),
-  texlab_lsp = require(providers_path .. "texlab"),
-  tsserver_lsp = require(providers_path .. "tsserver"),
-  vimls_lsp = require(providers_path .. "vimls"),
-  vuels_lsp = require(providers_path .. "vuels"),
-  svelte_lsp = require(providers_path .. "svelte")
-  -- eslint = require(providers_path .. "eslint")
-}
 
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] =
