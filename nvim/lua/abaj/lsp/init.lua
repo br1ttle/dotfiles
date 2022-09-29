@@ -70,7 +70,7 @@ local lsp_flags = {
 }
 
 -- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local providers_path = "cfg-lsp.providers."
+local providers_path = "lsp.providers."
 local lsps_table = {
   lua_lsp = require(providers_path .. "lua"),
   angular_lsp = require(providers_path .. "angular"),
