@@ -5,5 +5,8 @@ if not status_ok then
 end
 
 require'lspconfig'.pyright.setup{}
+require("mason").setup()
+
+
 
 return M
