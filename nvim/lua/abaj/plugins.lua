@@ -64,7 +64,7 @@ return packer.startup(function(use)
     use 'folke/tokyonight.nvim'
     use 'preservim/nerdtree'
 
-    -- lsep
+    -- lsp
     use 'neovim/nvim-lspconfig'
 
     -- cmp
@@ -73,7 +73,7 @@ return packer.startup(function(use)
 	use "hrsh7th/cmp-path"
     use "hrsh7th/cmp-cmdline"
 	use "saadparwaiz1/cmp_luasnip"
-	-- use "hrsh7th/cmp-nvim-lsp"
+	use "hrsh7th/cmp-nvim-lsp"
 	-- use "hrsh7th/cmp-nvim-lua"
     
 
