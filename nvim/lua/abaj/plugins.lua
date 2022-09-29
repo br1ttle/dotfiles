@@ -66,18 +66,9 @@ return packer.startup(function(use)
 
     -- lsp
     use {
-        "neovim/nvim-lspconfig",
-        wants = {
-        -- "nvim-lsp-installer",
-        "mason.nvim",
-        "mason-lspconfig.nvim",
-        "mason-tool-installer.nvim",
-        },
-        requires = {
         "williamboman/mason.nvim",
         "williamboman/mason-lspconfig.nvim",
-        "WhoIsSethDaniel/mason-tool-installer.nvim",
-        }
+        "neovim/nvim-lspconfig",
     }
     -- use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
 
