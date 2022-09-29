@@ -66,7 +66,8 @@ return packer.startup(function(use)
 
     -- lsp
     use 'neovim/nvim-lspconfig'
-	use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+    use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+    use { "williamboman/mason.nvim" }
 
     -- cmp
     use "hrsh7th/nvim-cmp"
