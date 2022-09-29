@@ -70,13 +70,6 @@ local lsp_flags = {
 }
 
 
-for key, _ in next, lsps_table, nil do
-  lsps_table[key].load {
-    capabilities = capabilities,
-    on_attach = on_attach,
-    flags = lsp_flags
-  }
-end
 
 vim.lsp.handlers["textDocument/publishDiagnostics"] =
   vim.lsp.with(
@@ -131,7 +124,7 @@ vim.cmd [[
 ]]
 
 -- Enable eslint and prettier
-require("cfg-lsp.null-ls")
+require("lsp.null-ls")
 require'lspconfig'.pyright.setup{}
 require("mason").setup()
 require("mason-lspconfig").setup()
