@@ -64,6 +64,9 @@ return packer.startup(function(use)
     use 'folke/tokyonight.nvim'
     use 'preservim/nerdtree'
 
+    -- lsep
+    use 'neovim/nvim-lspconfig'
+
     -- cmp
     use "hrsh7th/nvim-cmp"
 	use "hrsh7th/cmp-buffer"
