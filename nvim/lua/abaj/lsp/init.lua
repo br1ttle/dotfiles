@@ -124,7 +124,7 @@ vim.cmd [[
 ]]
 
 -- Enable eslint and prettier
-require("lsp.null-ls")
+require("null-ls")
 require'lspconfig'.pyright.setup{}
 require("mason").setup()
 require("mason-lspconfig").setup()
