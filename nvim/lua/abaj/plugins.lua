@@ -65,9 +65,25 @@ return packer.startup(function(use)
     use 'preservim/nerdtree'
 
     -- lsp
-    use 'neovim/nvim-lspconfig'
-    use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
-    use { "williamboman/mason.nvim" }
+    use {
+        "neovim/nvim-lspconfig",
+        wants = {
+        -- "nvim-lsp-installer",
+        "mason.nvim",
+        "mason-lspconfig.nvim",
+        "mason-tool-installer.nvim",
+        },
+        config = function()
+        require("config.lsp").setup()
+        end,
+        requires = {
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "WhoIsSethDaniel/mason-tool-installer.nvim",
+        }
+    }
+    -- use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+
 
     -- cmp
     use "hrsh7th/nvim-cmp"
