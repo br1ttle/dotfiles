@@ -51,6 +51,7 @@ export PATH="$PATH:$HOME/Google Drive/2. - code/202. - c/202.2 - programs"
 ### go (the language)
 export PATH="$PATH:$HOME/.go/bin"
 export PATH="$PATH:$HOME/go/bin"
+export PATH="$PATH:$HOME/Google Drive/2. - code/217. - moonlander/wally/build"
 export GOPATH="/Users/aayushbajaj/go"
 
 
