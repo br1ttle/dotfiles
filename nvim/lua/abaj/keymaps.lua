@@ -68,7 +68,9 @@ keymap("n", "<Esc>s", "<C-w>v<C-w>l<cmd>Lf<CR>", opts)
 keymap("n", "<Esc>t", ":tabn<CR>", opts)
 keymap("n", "<Esc>h", ":tabp<CR>", opts)
 keymap("n", "<Esc>x", ":tabclose<CR>", opts)
-keymap("n", "<Esc><S-t>", ":tabnew<CR>", opts)
+keymap("n", "<Esc>e", ":tabnew<CR>", opts)
+keymap("n", "<Esc><S-h>", ":tabm -1<CR>", opts)
+keymap("n", "<Esc><S-t>", ":tabm +1<CR>", opts)
 
 -- misc
 keymap("n", "<CR>", ":noh<CR><CR>", opts)
