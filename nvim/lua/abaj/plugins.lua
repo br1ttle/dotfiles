@@ -48,7 +48,8 @@ return packer.startup(function(use)
             'kyazdani42/nvim-web-devicons', -- optional, for file icons
         }
     }
-    use 'junegunn/fzf.vim'
+    use { 'junegunn/fzf', run = ":call fzf#install()" }
+    use { 'junegunn/fzf.vim' }
     use 'Mathijs-Bakker/zoom-vim'
     use 'vimwiki/vimwiki'
     use 'tpope/vim-surround'
