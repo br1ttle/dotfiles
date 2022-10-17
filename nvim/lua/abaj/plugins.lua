@@ -87,6 +87,10 @@ return packer.startup(function(use)
     use "ray-x/lsp_signature.nvim"
 	-- use "hrsh7th/cmp-nvim-lua"
     
+    -- snippets
+    use "SirVer/ultisnips"
+    use "honza/vim-snippets"
+
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
