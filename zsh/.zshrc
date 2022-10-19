@@ -119,7 +119,7 @@ alias nab="ncmpcpp -c ~/.config/ncmpcpp/config_abel -b ~/.config/ncmpcpp/binding
 
 # configs
 alias trc="v ~/.config/tmux/tmux.conf"
-alias vrc="v ~/.config/nvim/init.vim"
+alias vrc="v ~/.config/nvim/init.lua"
 alias zrc="v ~/.config/zsh/.zshrc"
 alias lrc="v ~/.config/lf/lfrc"
 alias krc="v ~/.config/karabiner/karabiner.json"
