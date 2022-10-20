@@ -141,7 +141,7 @@ map g.c cd "~/.config"
 map g.l cd "~/.local"
 map gre cd "/etc"
 map gru cd "/usr"
-map grv cd "/var"
+map grv cd "/Volumes/"
 map grb cd "/bin"
 map grr cd "/"
 
