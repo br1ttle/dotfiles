@@ -109,7 +109,7 @@ alias vvv="/usr/local/bin/nvim '$gcv/212.01 - pkm/index.md'"
 alias vd="/usr/local/bin/nvim '$gcv/212.00 - cs/diary/diary.md'"
 alias vvd="/usr/local/bin/nvim '$gcv/212.01 - pkm/diary/diary.md'"
 
-alias tordl="'/Users/aayushbajaj/Google Drive/8. - software/800. - git/cli-torrent-dl/tordl.sh'"
+alias tordl="'/Users/aayushbajaj/Google Drive/2. - code/297. - software/297.00 - git/cli-torrent-dl/tordl.sh'"
 alias aloc="locate -d $HOME/.local/var/db/locate.user.database"
 alias sloc="locate -d /var/db/locate.database"
 
