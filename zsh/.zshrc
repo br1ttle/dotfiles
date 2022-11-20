@@ -110,6 +110,7 @@ alias vd="/usr/local/bin/nvim '$gcv/212.00 - cs/diary/diary.md'"
 alias vvd="/usr/local/bin/nvim '$gcv/212.01 - pkm/diary/diary.md'"
 
 alias tordl="'/Users/aayushbajaj/Google Drive/2. - code/297. - software/297.00 - git/cli-torrent-dl/tordl.sh'"
+alias minidlnad="'/usr/local/opt/minidlna/sbin/minidlnad'"
 alias aloc="locate -d $HOME/.local/var/db/locate.user.database"
 alias sloc="locate -d /var/db/locate.database"
 
