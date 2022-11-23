@@ -71,6 +71,7 @@ keymap("n", "<Esc>x", ":tabclose<CR>", opts)
 keymap("n", "<Esc>e", ":tabnew<CR>", opts)
 keymap("n", "<Esc><S-h>", ":tabm -1<CR>", opts)
 keymap("n", "<Esc><S-t>", ":tabm +1<CR>", opts)
+keymap("n", "gF", "<C-W>gf")
 
 -- misc
 keymap("n", "<CR>", ":noh<CR><CR>", opts)
