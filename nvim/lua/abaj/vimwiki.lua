@@ -42,3 +42,5 @@ autocmd BufEnter diary.md VimwikiDiaryGenerateLinks
 autocmd BufEnter diary.md set syntax=vimwiki
 autocmd BufEnter index.md set syntax=vimwiki
 ]])
+
+keymap("n", "<Esc><CR>", ":VimwikiTabnewLink", opts)
