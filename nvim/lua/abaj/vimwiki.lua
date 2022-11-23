@@ -22,6 +22,7 @@ nmap <space>z <Plug>VimwikiMakeTomorrowDiaryNote
 vmap <space>z <Plug>VimwikiMakeTomorrowDiaryNote
 nmap <space>s :setlocal spell! spelllang=en_au<CR>
 vmap <space>s :setlocal spell! spelllang=en_au<CR>
+nmap <space>e :VimwikiTabnewLink<CR>
 augroup folds
 	autocmd FileType vimwiki set foldexpr=MarkdownFold()
 	autocmd FileType vimwiki set foldmethod=expr
@@ -43,4 +44,3 @@ autocmd BufEnter diary.md set syntax=vimwiki
 autocmd BufEnter index.md set syntax=vimwiki
 ]])
 
-keymap("n", "<Esc><CR>", ":VimwikiTabnewLink", opts)
