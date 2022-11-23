@@ -21,6 +21,7 @@ vmap <space>m <Plug>VimwikiMakeYesterdayDiaryNote
 nmap <space>z <Plug>VimwikiMakeTomorrowDiaryNote
 vmap <space>z <Plug>VimwikiMakeTomorrowDiaryNote
 nmap <space>e <Plug>VimwikiTabnewLink
+vmap <space>e <Plug>VimwikiTabnewLink
 nmap <space>s :setlocal spell! spelllang=en_au<CR>
 vmap <space>s :setlocal spell! spelllang=en_au<CR>
 augroup folds
