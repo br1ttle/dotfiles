@@ -79,7 +79,7 @@ keymap("n", "t", "l", opts)
 keymap("v", "t", "l", opts)
 keymap("n", "<leader>,", "a_<Esc>r", opts)
 keymap("n", "<leader>u", ":NERDTreeToggle<CR>", opts)
-keymap("n", "<leader>n", ":enew<CR>", opts)
+keymap("n", "<leader>e", ":enew<CR>", opts)
 keymap("n", "Y", "\"*y", opts)
 
 -- configs
