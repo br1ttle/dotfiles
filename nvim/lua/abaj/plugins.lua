@@ -75,8 +75,7 @@ return packer.startup(function(use)
         'mfussenegger/nvim-jdtls'
     }
 
-
-    use({
+    use {
   "hrsh7th/nvim-cmp",
   requires = {
     "quangnguyen30192/cmp-nvim-ultisnips",
@@ -116,7 +115,7 @@ return packer.startup(function(use)
       },
     })
   end,
-})
+}
 
 -- cmp
 	use "hrsh7th/cmp-buffer"
