@@ -104,3 +104,6 @@ keymap("n", "E", ":silent ! '/Users/aayushbajaj/Google Drive/2. - code/202. - c/
 keymap("n", "<leader>U", "<cmd>lua require'telescope.builtin'.live_grep(require('telescope.themes').get_dropdown({}))<CR>", opts)
 keymap("n", "<leader>B", "<cmd>lua require'telescope.builtin'.buffers(require('telescope.themes').get_dropdown({}))<CR>", opts)
 keymap("n", "<leader>F", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({}))<CR>", opts)
+
+-- ultisnips
+keymap("n", "<leader>U", ":Snippets<CR>", opts)
