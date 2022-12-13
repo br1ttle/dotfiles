@@ -13,7 +13,6 @@ vim.o.completeopt = "menu,menuone,noselect"
 -- %% Sources %%
 local luasnip = require("luasnip")
 local cmp = require "cmp"
-
 cmp.setup(
   {
     snippet = {
