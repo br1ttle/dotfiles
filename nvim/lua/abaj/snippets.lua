@@ -1,6 +1,6 @@
-vim.cmd "let g:UltiSnipsExpandTrigger=\"<tab>\""
-vim.cmd "let g:UltiSnipsJumpForwardTrigger=\"<c-b>\""
-vim.cmd "let g:UltiSnipsJumpBackwardTrigger=\"<c-z>\""
+vim.cmd "let g:UltiSnipsExpandTrigger=\"<Tab>\""
+vim.cmd "let g:UltiSnipsJumpForwardTrigger=\"<C-b>\""
+vim.cmd "let g:UltiSnipsJumpBackwardTrigger=\"<C-z>\""
 
 -- https://castel.dev/post/lecture-notes-1/
 
