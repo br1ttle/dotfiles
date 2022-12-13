@@ -75,7 +75,7 @@ return packer.startup(function(use)
         'mfussenegger/nvim-jdtls'
     }
 
-    use({
+    use {
       "hrsh7th/nvim-cmp",
       requires = {
         "quangnguyen30192/cmp-nvim-ultisnips",
@@ -115,7 +115,7 @@ return packer.startup(function(use)
           },
         })
       end,
-    })
+    }
 
 -- cmp
 	use "hrsh7th/cmp-buffer"
@@ -132,8 +132,6 @@ return packer.startup(function(use)
     -- snippets
     use "SirVer/ultisnips"
     use "honza/vim-snippets"
-
-
 
 
 	-- Automatically set up your configuration after cloning packer.nvim
