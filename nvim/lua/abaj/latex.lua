@@ -1,1 +1,1 @@
-vim.cmd ":let g:tex_flavor = \"latex\""
+vim.cmd "let g:tex_flavor = \"latex\""
