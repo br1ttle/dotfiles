@@ -126,7 +126,7 @@ return packer.startup(function(use)
 	use "hrsh7th/cmp-nvim-lsp"
 
 	use "saadparwaiz1/cmp_luasnip"
-    -- use "L3MON4D3/LuaSnip" --snippet engine
+    use "L3MON4D3/LuaSnip" --snippet engine
     use "onsails/lspkind.nvim"
     use "ray-x/lsp_signature.nvim"
     
