@@ -4,8 +4,11 @@ require "abaj.plugins"
 require "abaj.vimwiki"
 require "abaj.cmp"
 require "abaj.make"
-require "abaj.lsp"
+--require "abaj.lsp"
 require "abaj.snippets"
+require "abaj.latex"
+require "abaj.luasnip"
+
 
 vim.cmd "colorscheme tokyonight"
 vim.cmd "let g:transparent_enabled = v:true"
