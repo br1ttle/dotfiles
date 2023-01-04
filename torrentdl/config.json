@@ -1,6 +1,5 @@
 {
     "aggregate_same_magnet_links": true,
-    "browser_cmd": "firefox %s",
     "exclude_search_delimiter": "::-",
     "fetch_magnet_links_concurrence": 20,
     "fetch_missing_magnet_links": false,
@@ -14,15 +13,12 @@
     "rpc_user": "",
     "search_engines": [
         "1337x",
-        "BTDB",
         "Glo",
         "KAT",
         "Lime",
         "Nyaa",
-        "Solid",
         "TGx",
-        "TPB",
-        "Zooqle"
+        "TPB"
     ],
     "torrent_client_cmd": "rtorrent_maglink.sh %s",
     "use_exclude_search": true

@@ -89,7 +89,7 @@ keymap("n", "<Esc>cz", ":e ~/.config/zsh/.zshrc<CR>", opts)
 -- shell
 keymap("n", "P", ":w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/beamer' '%'<CR>", opts)
 -- keymap("n", "H", ":w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/handout' '%'<CR>", opts)
-keymap("n", "H", ":w<CR>:AsyncRun lualatex % && echo % | rev | cut -c5- | rev | xargs -I{} open -a \"Brave Browser Beta.app\" {}.pdf<CR>", opts)
+keymap("n", "H", ":w<CR>:AsyncRun lualatex % && echo % | rev | cut -c5- | rev | xargs -I{} brave-browser {}.pdf<CR>", opts)
 keymap("n", "E", ":silent ! '/Users/aayushbajaj/Google Drive/2. - code/202. - c/bytelocker/bytelocker' '%' '$bl_pass'<CR>:set noro<CR>", opts)
 
 
@@ -106,4 +106,4 @@ keymap("n", "<leader>B", "<cmd>lua require'telescope.builtin'.buffers(require('t
 keymap("n", "<leader>F", "<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({}))<CR>", opts)
 
 -- ultisnips
-keymap("n", "<leader>U", ":Snippets<CR>", opts)
+-- keymap("n", "<leader>U", ":Snippets<CR>", opts)
