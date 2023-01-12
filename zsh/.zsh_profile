@@ -1,6 +1,8 @@
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 
+source $HOME/.config/zsh/.z_secret
+
 export LF_ICONS="di=📁:\
 fi=📃:\
 tw=🤝:\

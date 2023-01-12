@@ -89,7 +89,6 @@ alias vvv="/usr/local/bin/nvim '$gcv/212.01 - pkm/index.md'"
 alias vd="/usr/local/bin/nvim '$gcv/212.00 - cs/diary/diary.md'"
 alias vvd="/usr/local/bin/nvim '$gcv/212.01 - pkm/diary/diary.md'"
 
-alias minidlnad="'/usr/local/opt/minidlna/sbin/minidlnad'"
 alias aloc="locate -d $HOME/.local/var/db/locate.user.database"
 alias sloc="locate -d /var/db/locate.database"
 
