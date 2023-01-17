@@ -1,0 +1,29 @@
+# see /boot/overlays/README
+
+enable_uart=1
+
+
+# enable audio (loads snd_bcm2835)
+dtparam=audio=on
+
+# enable drm vc4 v3d driver
+# enable vc4
+# dtoverlay=vc4-kms-v3d-rpi4
+# max_framebuffers=2
+
+# disable compensation for displays with overscan
+# disable_overscan=1
+
+# by default 30Hz, but to get 4kp60 use:
+# hdmi_enable_4kp60
+
+# forces turbo even when arm cores are not busy
+# force_turbo=1
+
+# allow turbo clock mode to go from 1.5GHz to 1.8GHz
+arm_boost=1
+arm_freq=2000
+gpu_freq=750
+
+# changes CPU/GPU upper voltage limit to 1.55V
+over_voltage=8
