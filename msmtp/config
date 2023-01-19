@@ -1,0 +1,22 @@
+account aayushbajaj7@gmail.com
+host smtp.gmail.com
+port 587
+from aayushbajaj7@gmail.com
+user aayushbajaj7@gmail.com
+passwordeval "pass aayushbajaj7@gmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/cert.pem
+logfile /Users/aayushbajaj/.config/msmtp/msmtp.log
+account z5362216@ad.unsw.edu.au
+host smtp.office365.com
+port 587
+from z5362216@ad.unsw.edu.au
+user z5362216@ad.unsw.edu.au
+passwordeval "/Users/aayushbajaj/.config/msmtp/getmail unsw.json"
+auth on
+tls on
+tls_trust_file	/etc/ssl/cert.pem
+logfile /Users/aayushbajaj/.config/msmtp/msmtp.log
+# tls_starttls
+

@@ -1,0 +1,472 @@
+sw_volume: 100
+audio_device_state:1:CoreAudio
+audio_device_state:1:Visualizer feed
+state: stop
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 0-159733
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 01
+Title: Swan Lake: Scene (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 159733-586333
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 02
+Title: Valse (Act I)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 586333-677400
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 03
+Title: Dance of the Little Swans (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 677400-1070333
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 04
+Title: Scene and Second Dance of the Queen of the Swans (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1070333-1287640
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 05
+Title: Czardas (Act III)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1287640-1547440
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 06
+Title: Finale (Act IV)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1547440-1762666
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 07
+Title: The Nutcracker: Ouverture Miniature
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1762666-1921973
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 08
+Title: Marche (Act I)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1921973-2019240
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 09
+Title: Dance of the Sugar-Plum Fairy (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2019240-2087333
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 10
+Title: Trepak (Russian dance) (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2087333-2266066
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 11
+Title: Arab Dance (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2266066-2342133
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 12
+Title: Chinese Dance (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2342133-2496733
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 13
+Title: Dance of the Reed Pipes (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2496733-2858573
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 14
+Title: Waltz of the Flowers (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2858573-3175773
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 15
+Title: The Sleeping Beauty: Introduction and Lilac Fairy (Prologue)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 3175773-3568840
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 16
+Title: Pas D'Action (Adagio) (Act I)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 3568840-3691973
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 17
+Title: Pas De Caractere (Puss in Boots) (Act III)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 3691973-3907373
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 18
+Title: Panorama (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 3907373-
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 19
+Title: Valse (Act I)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 0-159733
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 01
+Title: Swan Lake: Scene (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 159733-586333
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 02
+Title: Valse (Act I)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 586333-677400
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 03
+Title: Dance of the Little Swans (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 677400-1070333
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 04
+Title: Scene and Second Dance of the Queen of the Swans (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1070333-1287640
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 05
+Title: Czardas (Act III)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1287640-1547440
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 06
+Title: Finale (Act IV)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1547440-1762666
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 07
+Title: The Nutcracker: Ouverture Miniature
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1762666-1921973
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 08
+Title: Marche (Act I)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 1921973-2019240
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 09
+Title: Dance of the Sugar-Plum Fairy (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2019240-2087333
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 10
+Title: Trepak (Russian dance) (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2087333-2266066
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 11
+Title: Arab Dance (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2266066-2342133
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 12
+Title: Chinese Dance (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2342133-2496733
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 13
+Title: Dance of the Reed Pipes (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2496733-2858573
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 14
+Title: Waltz of the Flowers (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 2858573-3175773
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 15
+Title: The Sleeping Beauty: Introduction and Lilac Fairy (Prologue)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 3175773-3568840
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 16
+Title: Pas D'Action (Adagio) (Act I)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 3568840-3691973
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 17
+Title: Pas De Caractere (Puss in Boots) (Act III)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 3691973-3907373
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 18
+Title: Panorama (Act II)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+song_begin: Tchaikovsky - Ballet Suites - Karajan (1996)/Tchaikovsky - Ballet Suites - Karajan.flac
+Range: 3907373-
+Time: 4158.840000
+Genre: Classical
+Date: 1996
+AlbumArtist: Tchaikovsky - Ballet Suites
+Album: Wiener Philharmoniker - Herbert von Karajan
+Track: 19
+Title: Valse (Act I)
+Artist: Tchaikovsky - Ballet Suites
+mtime: 1641948831
+song_end
+38:Lil Wayne - Tha Carter V (2018) [FLAC] {B0029310-02}/CD1/02 - Don't Cry (feat. XXXTentacion).flac
+39:Lil Wayne - Tha Carter V (2018) [FLAC] {B0029310-02}/CD1/10 - Open Letter.flac
+40:J. Cole - 4 Your Eyez Only (2016)(FLAC)(WEB)/6 Change.flac
+playlist_end
