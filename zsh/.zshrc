@@ -84,10 +84,10 @@ alias "reso=displayplacer list | awk 'END{print}'"
 
 alias ZZ=exit
 alias v=/usr/bin/nvim
-alias vv="/usr/local/bin/nvim '$gcv/212.00 - cs/index.md'"
-alias vvv="/usr/local/bin/nvim '$gcv/212.01 - pkm/index.md'"
-alias vd="/usr/local/bin/nvim '$gcv/212.00 - cs/diary/diary.md'"
-alias vvd="/usr/local/bin/nvim '$gcv/212.01 - pkm/diary/diary.md'"
+alias vv="/usr/bin/nvim '$HOME/Documents/vimwiki/212.00 - cs/index.md'"
+alias vvv="/usr/bin/nvim '$HOME/Documents/vimwiki/212.01 - pkm/index.md'"
+alias vd="/usr/bin/nvim '$HOME/Documents/vimwiki/212.00 - cs/diary/diary.md'"
+alias vvd="/usr/bin/nvim '$HOME/Documents/vimwiki/212.01 - pkm/diary/diary.md'"
 
 alias aloc="locate -d $HOME/.local/var/db/locate.user.database"
 alias sloc="locate -d /var/db/locate.database"

@@ -1,5 +1,6 @@
 local options = {
 	colorcolumn = "80",
+	undodir = "/home/alarm/.undodir",
 	undofile = true,
 	hlsearch = true,						 -- search highlighting
 	showcmd = true,							 -- visual mode character count

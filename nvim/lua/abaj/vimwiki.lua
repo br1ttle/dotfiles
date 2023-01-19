@@ -1,9 +1,9 @@
 vim.cmd([[
 let g:calendar_monday = 1
 let g:calendar_weeknm = 2 
-let g:vimwiki_list = [{'path': '$HOME/Google Drive/2. - code/212. - vimwiki/212.00 - cs',
+let g:vimwiki_list = [{'path': '$HOME/Documents/vimwiki/212.00 - cs',
 					  \ 'syntax': 'markdown', 'ext': '.md'},
-					  \ {'path': '$HOME/Google Drive/2. - code/212. - vimwiki/212.01 - pkm',
+					  \ {'path': '$HOME/Documents/vimwiki/212.01 - pkm',
 					  \ 'syntax': 'markdown', 'ext': '.md'}]
 let g:vimwiki_global_ext = 0
 let g:vimwiki_folding = 'custom'

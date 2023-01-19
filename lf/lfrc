@@ -1,3 +1,7 @@
+set previewer stpv
+set cleaner stpvimgclr
+&stpvimg --listen $id
+cmd on-quit $stpvimg --end $id
 set preview true
 set hidden true
 
