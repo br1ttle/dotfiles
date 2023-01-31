@@ -59,7 +59,6 @@ keymap("n", "<Esc>b", "<C-w>h", opts) -- left
 keymap("n", "<Esc>m", "<C-w>l", opts) -- right
 keymap("n", "<Esc>w", "<C-w>j", opts) -- down
 keymap("n", "<Esc>v", "<C-w>k", opts) -- up
-keymap("n", "z", "<S-v>", opts) -- Z for Visual Line
 -- create splits
 keymap("n", "<Esc>-", "<C-w>s<C-w>j<cmd>Lf<CR>", opts)
 keymap("n", "<Esc>s", "<C-w>v<C-w>l<cmd>Lf<CR>", opts)
