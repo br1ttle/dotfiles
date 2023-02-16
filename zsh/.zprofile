@@ -148,4 +148,4 @@ ex=🎯:\
 *.java=♨:\
 "
 
-export bl_pass="1RF9bL4G9Sh1akXe" 
+source $HOME/.config/zsh/.zsecret

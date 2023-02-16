@@ -46,7 +46,7 @@ export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
 ### Created by `pipx` on 2021-10-23 02:37:28
 export PATH="$PATH:/Users/aayushbajaj/.local/bin:/Users/aayushbajaj/.emacs.d/bin:/usr/local/go/bin/"
 ### .scripts folder
-export PATH="$PATH:$HOME/Google Drive/2. - code/206. - scripts"
+export PATH="$PATH:$HOME/.scripts/"
 ### go (the language)
 export PATH="$PATH:$HOME/.go/bin"
 export PATH="$PATH:$HOME/go/bin"
@@ -54,7 +54,6 @@ export PATH="$PATH:$HOME/Google Drive/2. - code/217. - moonlander/wally/build"
 export GOPATH="/Users/aayushbajaj/go"
 
 
-export HOMEBREW_GITHUB_API_TOKEN=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
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
@@ -130,6 +129,7 @@ alias mrc="v ~/.config/mutt/"
 alias a="tmux a"
 alias srs="drill-srs"
 alias zhist="v ~/.config/zsh/.zsh_history"
+alias mhist="v ~/.maple_history"
 
 # custom functions
 
@@ -162,3 +162,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # testing dotfiles script
 
+export PATH=$PATH:$HOME/.os161-toolchain/bin
+alias bmake="bmake -m ~/.os161-toolchain/share/mk"
