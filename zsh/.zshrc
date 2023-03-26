@@ -125,6 +125,7 @@ alias lrc="v ~/.config/lf/lfrc"
 alias krc="v ~/.config/karabiner/karabiner.json"
 alias kirc="v ~/.config/kitty/kitty.conf"
 alias mrc="v ~/.config/mutt/"
+alias crc="v ~/.config/"
 
 alias a="tmux a"
 alias srs="drill-srs"
@@ -164,3 +165,11 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 export PATH=$PATH:$HOME/.os161-toolchain/bin
 alias bmake="bmake -m ~/.os161-toolchain/share/mk"
+
+source "$HOME/.local/servers/pgsql13/env"
+alias p0="$PGHOME/bin/pg_ctl stop"
+alias p1="$PGHOME/bin/pg_ctl -l $PGDATA/log start"
+alias site="cd ~/website && hugo -v && rsync -vrP ~/website/public/ root@abaj.io:/var/www/abaj/"
+
+
+source $HOME/.config/zsh/.zsecret

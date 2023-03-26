@@ -20,3 +20,15 @@ tls_trust_file	/etc/ssl/cert.pem
 logfile /Users/aayushbajaj/.config/msmtp/msmtp.log
 # tls_starttls
 
+account j@abaj.io
+host mail.abaj.io
+port 465
+from j@abaj.io
+user j@abaj.io
+passwordeval "/usr/local/bin/pass j@abaj.io"
+auth on
+tls on
+tls_trust_file	/etc/ssl/cert.pem
+logfile /Users/aayushbajaj/.config/msmtp/msmtp.log
+tls_starttls off
+

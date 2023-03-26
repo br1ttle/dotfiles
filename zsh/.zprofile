@@ -148,4 +148,3 @@ ex=🎯:\
 *.java=♨:\
 "
 
-source $HOME/.config/zsh/.zsecret
