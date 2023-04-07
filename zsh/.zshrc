@@ -1,10 +1,9 @@
-
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.config/zsh/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-
 
 lc () {
     tmp="$(mktemp)"
@@ -20,12 +19,6 @@ lc () {
     fi
 }
 
-# get power10k not to give output warning for fortune
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-
-#run fortune
-
-# zsh variables
 HISTFILE=~/.config/zsh/.zsh_history
 HISTSIZE=999999999
 SAVEHIST=999999999
@@ -34,41 +27,10 @@ setopt extended_glob
 setopt cdablevars
 
 
-# exports
+# exports for interactive shells
 export TERM=xterm-256color
-# Path to your oh-my-zsh installation.
-export ZSH="/home/$USER/.oh-my-zsh"
 # nvim as default editor
 export EDITOR="/usr/bin/nvim"
-# dbus for scli
-export DBUS_LAUNCHD_SESSION_BUS_SOCKET="$HOME/Library/Caches/dbus/bus"
-export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
-
-
-## navigation
-### exports are now in .zprofile
-
-
-
-
-export HOMEBREW_GITHUB_API_TOKEN=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
-
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
-
-plugins=(
-    z
-    zsh-vi-mode
-    macos
-    copypath
-    zsh-history-substring-search
-    dirhistory
-    copyfile
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-)
-
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
 # aliases
@@ -83,7 +45,7 @@ alias "reso=displayplacer list | awk 'END{print}'"
 
 
 alias ZZ=exit
-alias v=/usr/bin/nvim
+alias v="/usr/bin/nvim"
 alias vv="/usr/bin/nvim '$HOME/Documents/vimwiki/212.00 - cs/index.md'"
 alias vvv="/usr/bin/nvim '$HOME/Documents/vimwiki/212.01 - pkm/index.md'"
 alias vd="/usr/bin/nvim '$HOME/Documents/vimwiki/212.00 - cs/diary/diary.md'"
@@ -123,21 +85,23 @@ tt () {
 
 ## mc make and change into a directory
 mc () {
-	md "$@"
+	mkdir "$@"
 	cd "$@"
 }
 
 
+#source $ZSH/oh-my-zsh.sh
 
 
-source $ZSH/oh-my-zsh.sh
+source ~/.config/zsh/.z_secret
 
-# Generated for envman. Do not edit.
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+# antigen (package manager)
+source $HOME/.config/zsh/antigen.zsh
+antigen use oh-my-zsh
+antigen theme romkatv/powerlevel10k
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen apply
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-
-# testing dotfiles script
-
-source ~/.config/zsh/.zsh_profile
+# To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
+[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
