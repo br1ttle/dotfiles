@@ -143,6 +143,7 @@ map gru cd "/usr"
 map grv cd "/Volumes/"
 map grb cd "/bin"
 map grr cd "/"
+map gww cd "~/site"
 
 
 # Path

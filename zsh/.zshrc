@@ -92,7 +92,7 @@ mc () {
 
 #source $ZSH/oh-my-zsh.sh
 
-
+source $HOME/.config/zsh/.zsh_profile
 source ~/.config/zsh/.z_secret
 
 # antigen (package manager)
