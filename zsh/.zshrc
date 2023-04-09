@@ -70,6 +70,7 @@ alias mrc="v ~/.config/mutt/"
 alias a="tmux a"
 alias srs="drill-srs"
 alias zhist="v ~/.config/zsh/.zsh_history"
+alias site="cd ~/site && hugo -v && rsync -vrP ~/site/public/ root@abaj.io:/var/www/abaj/"
 
 # custom functions
 
