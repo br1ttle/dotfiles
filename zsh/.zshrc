@@ -1,4 +1,5 @@
 
+export ZSH_DISABLE_COMPFIX=true
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -162,8 +163,9 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 
 # testing dotfiles script
+source $HOME/.config/zsh/.zprofile
 
-export PATH=$PATH:$HOME/.os161-toolchain/bin
+export PATH=$PATH:$HOME/.os161-toolchain/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin
 alias bmake="bmake -m ~/.os161-toolchain/share/mk"
 
 source "$HOME/.local/servers/pgsql13/env"
@@ -173,3 +175,7 @@ alias site="cd ~/website && hugo -v && rsync -vrP ~/website/public/ root@abaj.io
 
 
 source $HOME/.config/zsh/.zsecret
+
+
+export "PATH=$PATH:/Users/aayushbajaj/Google Drive/2. - code/235. - sedawk/textual_apps/bin"
+export PATH="/usr/local/opt/curl/bin:$PATH"

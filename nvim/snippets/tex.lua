@@ -181,7 +181,7 @@ local invoice =
         \multirow{5}{*} & \textbf{Private Tutoring} & \hskip12pt\multirow{5}{*}{\begin{tabular}{r}\footnotesize\bf INVOICE \\[-0.8ex] \footnotesize \MakeUppercase{<>} \\[-0.4ex] \footnotesize\bf ISSUE DATE \\[-0.8ex] \footnotesize \MakeUppercase{\today} \\[-0.4ex] \footnotesize\bf DUE DATE\\[-0.8ex] \footnotesize \MakeUppercase{<>} \end{tabular}}\hspace{-6pt} \\
        & Aayush Bajaj & \\
        & \hrulefill \\
-       & Email: aayushbajaj7@gmail.com & \\
+       & Email: j@abaj.io & \\
        & Ph:  0481 910 408 & \\
        & ABN: 64257676141
     \end{tabularx} 

@@ -89,7 +89,7 @@ keymap("n", "<Esc>cz", ":e ~/.config/zsh/.zshrc<CR>", opts)
 -- shell
 keymap("n", "P", ":w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/beamer' '%'<CR>", opts)
 -- keymap("n", "H", ":w<CR>:AsyncRun '/Users/aayushbajaj/Google Drive/2. - code/206. - scripts/handout' '%'<CR>", opts)
-keymap("n", "H", ":w<CR>:AsyncRun xelatex % && echo % | rev | cut -c5- | rev | xargs -I{} open -a \"Brave Browser Beta.app\" {}.pdf<CR>", opts)
+keymap("n", "H", ":w<CR>:AsyncRun lualatex % && echo % | rev | cut -c5- | rev | xargs -I{} open -a \"Brave Browser Beta.app\" {}.pdf<CR>", opts)
 keymap("n", "E", ":silent ! '/Users/aayushbajaj/Google Drive/2. - code/202. - c/bytelocker/bytelocker' '%' '$bl_pass'<CR>:set noro<CR>", opts)
 
 

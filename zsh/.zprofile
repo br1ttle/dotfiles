@@ -1,8 +1,7 @@
 
 # Setting PATH for Python 3.9
 # The original version is saved in .zprofile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
-export PATH
+export PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 #export PATH="/Users/aayushbajaj/Google Drive/8. - software/83. - youtube-upload-master/bin:$PATH"
@@ -55,6 +54,7 @@ export PATH="/Library/TeX/texbin:$PATH"
 export PATH="$PATH:$HOME/Google Drive/2. - code/206. - scripts"
 export PATH="$PATH:$HOME/Google Drive/2. - code/202. - c/runbox"
 
+export PATH="$PATH:$HOME/.local/bin/c"
 
 ## navigation
 export gaw="$HOME/Downloads"

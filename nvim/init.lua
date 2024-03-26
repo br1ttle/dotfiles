@@ -3,11 +3,14 @@ require "abaj.keymaps"
 require "abaj.plugins"
 require "abaj.vimwiki"
 require "abaj.cmp"
---require "abaj.lsp"
+require "abaj.lsp"
 require "abaj.snippets"
 require "abaj.latex"
 require "abaj.luasnip"
 
+-- latex
+vim.cmd "let g:vimtex_view_general_viewer = 'open -a Brave Browser Beta.app'"
+vim.cmd "let g:vimtex_view_general_options = '@pdf'"
 
 vim.cmd "colorscheme tokyonight"
 vim.cmd "let g:transparent_enabled = v:true"

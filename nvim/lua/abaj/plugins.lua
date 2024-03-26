@@ -96,6 +96,9 @@ return packer.startup(function(use)
     --
     use 'dhananjaylatkar/cscope_maps.nvim' -- cscope keymaps
     -- use 'folke/which-key.nvim' -- optional
+    
+    -- texstuff
+    use 'lervag/vimtex'
 
     require('cscope_maps') -- load cscope maps
 

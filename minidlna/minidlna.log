@@ -1,1 +1,62 @@
 [2022/11/20 20:43:38] minidlna.c:1030: fatal: MiniDLNA is already running. EXITING.
+[2023/06/27 21:29:13] minidlna.c:1124: warn: Starting MiniDLNA version 1.3.0.
+[2023/06/27 21:29:13] minidlna.c:397: warn: New media_dir detected; rebuilding...
+[2023/06/27 21:29:13] minidlna.c:1184: warn: HTTP listening on port 8200
+[2023/06/27 21:29:13] scanner.c:731: warn: Scanning /Users/aayushbajaj/Downloads/torrents
+[2023/06/27 21:29:14] metadata.c:715: warn: Opening /Users/aayushbajaj/Downloads/torrents/Garfield A Tail Of Two Kitties (2006) [1080p] [BluRay] [5.1] [YTS.MX]/Garfield.A.Tail.Of.Two.Kitties.2006.1080p.BluRay.x264.AAC5.1-[YTS.MX].mp4 failed! [Invalid data found when processing input]
+[2023/06/27 21:29:14] scanner.c:490: warn: Unsuccessful getting details for /Users/aayushbajaj/Downloads/torrents/Garfield A Tail Of Two Kitties (2006) [1080p] [BluRay] [5.1] [YTS.MX]/www.YTS.MX.jpg
+[2023/06/27 21:29:14] metadata.c:715: warn: Opening /Users/aayushbajaj/Downloads/torrents/Harry Potter And The Deathly Hallows Part 1 (2010) 720p BluRay x264 -[MoviesFD]/Harry.potter.and.the.deathly.hallows.part.1.2010.720p.BluRay.x264.[MoviesFD].mkv failed! [Invalid data found when processing input]
+[2023/06/27 21:29:14] scanner.c:490: warn: Unsuccessful getting details for /Users/aayushbajaj/Downloads/torrents/Harry Potter And The Deathly Hallows Part 1 (2010) 720p BluRay x264 -[MoviesFD]/Harry.potter.and.the.deathly.hallows.part.1.2010.720p.BluRay.x264.[MoviesFD].mkv
+[2023/06/27 21:29:14] metadata.c:715: warn: Opening /Users/aayushbajaj/Downloads/torrents/Ted Duology Collection (2012-2015) UnRated 1080p 10bit BluRay x265 HEVC [Hindi-English] ESubs Jitu KartiKing/Ted (2012) UnRated 1080p 10bit BluRay x265 HEVC [Hindi-English DD5.1] ESubs Jitu KartiKing.mkv failed! [Invalid data found when processing input]
+[2023/06/27 21:29:14] scanner.c:490: warn: Unsuccessful getting details for /Users/aayushbajaj/Downloads/torrents/Ted Duology Collection (2012-2015) UnRated 1080p 10bit BluRay x265 HEVC [Hindi-English] ESubs Jitu KartiKing/Ted (2012) UnRated 1080p 10bit BluRay x265 HEVC [Hindi-English DD5.1] ESubs Jitu KartiKing.mkv
+[2023/06/27 21:29:14] metadata.c:715: warn: Opening /Users/aayushbajaj/Downloads/torrents/Ted Duology Collection (2012-2015) UnRated 1080p 10bit BluRay x265 HEVC [Hindi-English] ESubs Jitu KartiKing/[SAMPLE] Ted 2 (2015) UnRated Jitu KartiKing.mkv failed! [Invalid data found when processing input]
+[2023/06/27 21:29:14] scanner.c:490: warn: Unsuccessful getting details for /Users/aayushbajaj/Downloads/torrents/Ted Duology Collection (2012-2015) UnRated 1080p 10bit BluRay x265 HEVC [Hindi-English] ESubs Jitu KartiKing/[SAMPLE] Ted 2 (2015) UnRated Jitu KartiKing.mkv
+[2023/06/27 21:29:14] scanner.c:820: warn: Scanning /Users/aayushbajaj/Downloads/torrents finished (133 files)!
+[2023/06/27 21:29:14] playlist.c:135: warn: Parsing playlists...
+[2023/06/27 21:29:14] playlist.c:269: warn: Finished parsing playlists.
+[2023/06/27 22:37:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/27 22:37:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/27 22:37:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/rtorrent.input_history.new): No such file or directory
+[2023/06/27 23:37:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/27 23:57:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 00:53:00] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 00:53:00] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.rtorrent.new): No such file or directory
+[2023/06/28 01:20:22] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 01:20:22] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.rtorrent.new): No such file or directory
+[2023/06/28 02:26:30] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.rtorrent.new): No such file or directory
+[2023/06/28 04:02:03] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/28 04:39:47] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/4D5D1FB084D04418576C025C585814DECFF31662.torrent.rtorrent.new): No such file or directory
+[2023/06/28 04:39:47] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/4D5D1FB084D04418576C025C585814DECFF31662.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 04:39:47] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 04:39:47] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/rtorrent.dht_cache.new): No such file or directory
+[2023/06/28 05:26:18] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.rtorrent.new): No such file or directory
+[2023/06/28 05:26:18] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/28 07:04:07] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 07:37:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.rtorrent.new): No such file or directory
+[2023/06/28 09:34:01] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 09:34:01] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.rtorrent.new): No such file or directory
+[2023/06/28 11:15:01] minissdp.c:271: error: sendto(udp): No route to host
+[2023/06/28 11:15:01] minissdp.c:271: error: sendto(udp): Host is down
+[2023/06/28 12:17:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 12:37:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/28 12:57:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.rtorrent.new): No such file or directory
+[2023/06/28 12:57:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/28 13:17:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/28 13:17:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 13:37:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/28 14:37:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/28 14:59:02] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/28 15:20:01] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/4D5D1FB084D04418576C025C585814DECFF31662.torrent.libtorrent_resume.new): No such file or directory
+[2023/06/28 15:20:01] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/D58C2544D0D3ADD3661F8A68629AE420D61A0E36.torrent.rtorrent.new): No such file or directory
+[2023/06/28 17:22:54] monitor_kqueue.c:189: error: stat(/Users/aayushbajaj/Downloads/torrents/session/AF1915E8BE426A27CB52B407BC8BAAD66EBE263D.torrent.rtorrent.new): No such file or directory
+[2023/09/12 08:49:09] minidlna.c:200: warn: received signal 15, good-bye
+[2023/09/12 08:49:09] minissdp.c:324: error: sendto(udp_notify=8, 192.168.1.136): Interrupted system call
+[2023/09/12 08:49:09] minissdp.c:324: error: sendto(udp_notify=8, 192.168.1.136): No route to host
+[2023/09/12 08:49:10] minissdp.c:324: error: sendto(udp_notify=8, 192.168.1.136): No route to host
+[2023/09/12 08:49:10] minissdp.c:324: error: sendto(udp_notify=8, 192.168.1.136): No route to host
+[2023/09/12 08:49:10] minissdp.c:324: error: sendto(udp_notify=8, 192.168.1.136): No route to host
+[2023/09/12 08:49:10] minissdp.c:324: error: sendto(udp_notify=8, 192.168.1.136): No route to host
+[2023/09/12 08:49:10] minissdp.c:324: error: sendto(udp_notify=8, 192.168.1.136): No route to host
+[2023/09/12 08:49:10] minissdp.c:324: error: sendto(udp_notify=8, 192.168.1.136): No route to host
+[2023/09/12 08:49:10] minissdp.c:816: error: sendto(udp_shutdown=8): No route to host
+[2023/09/12 08:49:10] minissdp.c:816: error: sendto(udp_shutdown=8): No route to host

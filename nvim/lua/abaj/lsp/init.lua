@@ -102,21 +102,23 @@ vim.lsp.handlers["textDocument/publishDiagnostics"] =
 vim.cmd [[autocmd! CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false, scope="cursor"})]]
 
 -- Format on save
-vim.cmd [[
-    autocmd BufWritePre *.java lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.ts lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.tsx lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.cs lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.php lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.tex lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.json lua vim.lsp.buf.formatting_sync(nil, 1000)
-    autocmd BufWritePre *.svelte lua vim.lsp.buf.formatting_sync(nil, 1000)
-]]
+--vim.cmd [[
+--    autocmd BufWritePre *.java lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.ts lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.tsx lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.cs lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.php lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.tex lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.json lua vim.lsp.buf.formatting_sync(nil, 1000)
+--    autocmd BufWritePre *.svelte lua vim.lsp.buf.formatting_sync(nil, 1000)
+--]]
+
+
 
 -- Enable codelens
 vim.cmd [[
@@ -126,5 +128,6 @@ vim.cmd [[
 -- Enable eslint and prettier
 require("null-ls")
 require'lspconfig'.pyright.setup{}
+require'lspconfig'.texlab.setup{}
 require("mason").setup()
 require("mason-lspconfig").setup()

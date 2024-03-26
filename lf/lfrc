@@ -55,6 +55,10 @@ cmd brave ${{
     open -a "Brave Browser Beta.app" "$f"
 }}
 
+cmd open_selected ${{
+    echo "$fs" | xargs -I{} open -a "Brave Browser Beta.app" {}
+}}
+
 
 cmd yank-path $printf '%s' "$fx" | pbcopy
 # the below 2 do not work as the head command on osx cannot handle negative
@@ -104,6 +108,7 @@ map mr sudomkfile
 map md mkdir
 map ms $mkscript
 map o brave
+map O open_selected
 map r rename
 map R reload
 map C clear
@@ -142,6 +147,8 @@ map gaw cd "~/Downloads"
 map gac cd "~/Documents"
 map gww cd "~/website"
 map gos cd "~/cs3231"
+map gom cd "~/minix"
+map goa cd "~/arch"
 map g.c cd "~/.config"
 map g.t cd "~/.Trash/"
 map g.s cd "~/.scripts"
